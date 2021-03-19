@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #008CBA;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+}
+
+.box{
+	/* width: 400px; */
+	padding: 40px 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0, 0, 0, .8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(37, 37, 37, 0.5);
+	border-radius: 10px;
+    color: white;
+}
+
+.btn-crtMatrix{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    /* transform: translate(-50%, -50%); */
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+
+#numberOne{
+    max-width: 80px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-align: center;
+}
+#numberTwo{
+    max-width: 80px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-align: center;
+}
+#field{
+    margin: 10px auto;
+    max-width: 390px;
+    /*position: left;*/
+
+}
+.field-block{
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #008CBA;
+    background-color: white;
+    /*justify-content: center;*/
+}
+.active {
+    border: 2px solid black;
+}
+.deleted{
+     background-color: #008CBA;
+}
+.heard{
+    background-image: url('../img/heard3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.clubs{
+    background-image: url('../img/clubs.png');
+    background-size: contain;
+}
+.diamonds{
+    background-image: url('../img/diamonds.png');
+    background-size: contain;
+}
+.spades{
+    background-image: url('../img/spades.png');
+    background-size: contain;
+}
